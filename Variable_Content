@@ -1,0 +1,216 @@
+package variable_01;
+/*This syntax is for multiple line comment
+ * We can write multiple line here
+ */
+// This syntax is for single line comment
+
+import java.util.Scanner;
+
+//comment
+//Information about programs -- This is my first program
+//created by - koushik
+//date : 2 December 2023
+//place: Pune
+
+//public class Java_01_Variable {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		//This is a print method/syntax
+//		System.out.println("Welcome to java world"); //println will always print new line
+//		System.out.print("My name is koushik"); //print will print in same line
+//	//// ctrl+/ comment the code
+//		
+//	}
+//
+//}
+//===========================================================================================
+//Public-
+//Access modifier (protected, Private, Default,public)
+//class - it is keyword
+//Java_01_Variable- name of class
+//public
+//static-non access modifier
+//void - retrun type of function
+//main - name of method
+//Running the program
+//ctrl+f11
+//green key Run
+//right click and run as java application
+//With Ctrl + W we can close opened tab. With Ctrl + Shift + E we can select which files we want to close
+//============================================================================================
+
+//Declaration of variable and assigning value to it
+//public class Java_01_Variable {
+//
+//	public static void main(String[] args) {
+//		int a; //Declaration of variable
+//		a = 10; //Assigning value to variable or Initialization
+//		System.out.println(a);
+//		int b; 
+//		b = 15; 
+//		System.out.println(b);
+//		int c; 
+//		c = 20; 
+//		System.out.println(c);
+//		
+//	}
+//}
+//public class Java_01_Variable {
+//
+//	public static void main(String[] args) {
+//		String a;
+//		a = "koushik";
+//		System.out.println(a);
+//		char b = 'L';
+//	    System.out.println(b);
+//		
+//	}
+//}
+//============================================================================================
+//public class Java_01_Variable {
+//
+//	public static void main(String[] args) {
+//		int a = 25;
+//		System.out.println(a);//25
+//		int b = a + 10;
+//		System.out.println(b);//35
+//		a += 5;
+//		System.out.println(a);//30
+//		int c = ++a;
+//		System.out.println(c);//31
+//		int d = --a;
+//		System.out.println(d);//30
+//		
+//	}
+//}
+//============================================================================================
+//Declaration of multiple variables in a statement
+//public class Java_01_Variable {
+//	public static void main(String[] args) {
+//		int a, b, c, d;
+//		a = 10;
+//		b = 15;
+//		c = 20;
+//		d = 25;
+//		String e, f, g, h;
+//		e = "koushik";
+//		f = "yash";
+//		g = "rohan";
+//		h = "rohit";
+//		System.out.println("Concatenated" +" " + a +" " + e);
+//		System.out.println("Concatenated" +" " + b+" "  + f);
+//		System.out.println("Concatenated" +" " + c +" " + g);
+//		System.out.println("Concatenated" +" " + d +" " + h);
+//
+//	}
+//}
+//===============================================================================================
+
+////// // Declaration of multiple variables and Assigning values.
+//public class Java_01_Variable {
+//public static void main(String[] args) {
+//	int a = 10; //4 byte by default
+//	float b = 20.36f;//4 byte by default
+//	long c = 254698744;//8 byte by default
+//	String d = "Koushik Gupta";
+//	double e = 365.25478;//8 byte by default
+//	char f = 'A';
+//	char g = 'Y';
+//	System.out.println(a);//10
+//	System.out.println(b);//20.36
+//	System.out.println(c);//254698744
+//	System.out.println(d);//Koushik Gupta
+//	System.out.println(e);//365.25478
+//	System.out.println(f);//A
+//	System.out.println(g);//Y
+//}
+//}
+//===============================================================================================
+//scanner class for user input
+//class Java_01_Variable {
+//public static void main(String[] args) {
+//	System.out.println("Please enter your number:");
+//	try(Scanner i = new Scanner(System.in)){
+//	int abc = i.nextInt();
+//	System.out.println("Entered Number" +" "+ abc);
+//	System.out.println("Double of entered number" +" "+ abc*2);
+//	System.out.println(abc);
+//
+//}
+//}
+//}
+//==============================================================================================
+//scanner class for user input with int input
+//class Java_01_Variable {
+//public static void main(String[] args) {
+//	System.out.println("Enter number :");
+//	try(Scanner i = new Scanner(System.in)){
+//		int abc = i.nextInt();
+//		System.out.println("Entered number" + abc);
+//		System.out.println("Double of entered number" + abc*2);
+//		System.out.println("Triple of entered number" + abc*3);
+//	}
+//
+//}
+//}
+//==============================================================================================
+
+//scanner class for user input with float input
+//class Java_01_Variable {
+//public static void main(String[] args) {
+//	System.out.println("Enter float number :");
+//	Scanner floatnumber = new Scanner(System.in);
+//	float abc = floatnumber.nextFloat();
+//	System.out.println("Entered number" + abc);
+//	System.out.println("Double of entered number" + abc*2);
+//	System.out.println("Triple of entered number" + abc*3);
+//}
+//}
+//==============================================================================================
+
+//scanner class for user input with Double input
+//class Java_01_Variable {
+//public static void main(String[] args) {
+//	System.out.println("Enter double number :");
+//	Scanner i = new Scanner(System.in);
+//	Double abc = i.nextDouble();
+//	System.out.println("Entered number" + abc);
+//	System.out.println("Double of entered number" + abc*2);
+//	System.out.println("Triple of entered number" + abc*3);
+//}
+//}
+//==============================================================================================
+
+//scanner class for user input with String input
+//class Java_01_Variable {
+//public static void main(String[] args) {
+//	System.out.println("Enter your string :");
+//	Scanner userinput = new Scanner(System.in);
+//	String abc = userinput.next();
+//	System.out.println("String entered =" + abc);
+//	userinput.close();
+//	
+//}
+//}
+//==============================================================================================
+
+/// *Assignment
+//1.Install java and eclipse - Done
+//2. Write a Java program to print 'Hello' on screen - Done
+//2 write a program to take your name as input and print "welcome to java sel
+//world + your name" - Done
+//3. Create the git account and upload these files - Done
+
+
+
+
+
+
+
+
+
+
+
+
+
